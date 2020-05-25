@@ -69,26 +69,6 @@ impl Camera {
 
     pub fn lookat_upd8(&mut self) -> Mat4 {
 
-        // glam::Mat4::look_at_lh(
-        //     glam::Vec3::new(0f32, 0f32, 0f32),
-        //     glam::Vec3::new(
-        //
-        //         map(self.rotation.0.to_radians(),
-        //             (0f32.to_radians(),360f32.to_radians()),
-        //             (0f32,1f32)
-        //         ),
-        //
-        //         self.rotation.1.to_radians().sin(),
-        //         -self.rotation.1.to_radians().cos()
-        //     ),
-        //
-        //     glam::Vec3::new(
-        //         0f32,
-        //         (self.rotation.1+90f32).to_radians().sin(),
-        //         (self.rotation.1+90f32).to_radians().cos()
-        //     ),
-        // )
-
         glam::Mat4::look_at_lh(
             glam::Vec3::new(0f32,0f32,0f32),
             glam::Vec3::new(
