@@ -1,0 +1,1 @@
+E:\devel\scape\target\debug\scape.exe: E:\devel\scape\src\camera.rs E:\devel\scape\src\controller.rs E:\devel\scape\src\main.rs E:\devel\scape\src\models.rs E:\devel\scape\src\shaders.rs E:\devel\scape\src\utils.rs

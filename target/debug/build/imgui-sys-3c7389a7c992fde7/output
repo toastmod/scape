@@ -1,0 +1,139 @@
+TARGET = Some("x86_64-pc-windows-msvc")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-pc-windows-msvc")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+DEBUG = Some("true")
+CXX_x86_64-pc-windows-msvc = None
+CXX_x86_64_pc_windows_msvc = None
+HOST_CXX = None
+CXX = None
+CXXFLAGS_x86_64-pc-windows-msvc = None
+CXXFLAGS_x86_64_pc_windows_msvc = None
+HOST_CXXFLAGS = None
+CXXFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-FoE:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/cimgui.o" "-c" "third-party/cimgui/cimgui.cpp"
+cimgui.cpp
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(968): warning C4190: 'igGetWindowPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(969): warning C4190: 'igGetWindowSize' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(988): warning C4190: 'igGetContentRegionMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(989): warning C4190: 'igGetContentRegionAvail' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(990): warning C4190: 'igGetWindowContentRegionMin' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(991): warning C4190: 'igGetWindowContentRegionMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1014): warning C4190: 'igGetFontTexUvWhitePixel' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1037): warning C4190: 'igGetCursorPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1043): warning C4190: 'igGetCursorStartPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1044): warning C4190: 'igGetCursorScreenPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1231): warning C4190: 'igGetItemRectMin' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1232): warning C4190: 'igGetItemRectMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1233): warning C4190: 'igGetItemRectSize' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1245): warning C4190: 'igCalcTextSize' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1249): warning C4190: 'igColorConvertU32ToFloat4' has C-linkage specified, but returns UDT 'ImVec4' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(208): note: see declaration of 'ImVec4'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1264): warning C4190: 'igGetMousePos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1265): warning C4190: 'igGetMousePosOnOpeningCurrentPopup' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1267): warning C4190: 'igGetMouseDragDelta' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1356): warning C4190: 'ImColor_HSV' has C-linkage specified, but returns UDT 'ImColor' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(1781): note: see declaration of 'ImColor'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1373): warning C4190: 'ImDrawList_GetClipRectMin' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1374): warning C4190: 'ImDrawList_GetClipRectMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\cimgui.h(1478): warning C4190: 'ImFont_CalcTextSizeA' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(163): warning C4190: 'igGetWindowPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(167): warning C4190: 'igGetWindowSize' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(243): warning C4190: 'igGetContentRegionMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(247): warning C4190: 'igGetContentRegionAvail' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(251): warning C4190: 'igGetWindowContentRegionMin' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(255): warning C4190: 'igGetWindowContentRegionMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(347): warning C4190: 'igGetFontTexUvWhitePixel' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(439): warning C4190: 'igGetCursorPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(463): warning C4190: 'igGetCursorStartPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(467): warning C4190: 'igGetCursorScreenPos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1252): warning C4190: 'igGetItemRectMin' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1256): warning C4190: 'igGetItemRectMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1260): warning C4190: 'igGetItemRectSize' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1308): warning C4190: 'igCalcTextSize' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1324): warning C4190: 'igColorConvertU32ToFloat4' has C-linkage specified, but returns UDT 'ImVec4' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(208): note: see declaration of 'ImVec4'
+third-party/cimgui/cimgui.cpp(1384): warning C4190: 'igGetMousePos' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1388): warning C4190: 'igGetMousePosOnOpeningCurrentPopup' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1396): warning C4190: 'igGetMouseDragDelta' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1752): warning C4190: 'ImColor_HSV' has C-linkage specified, but returns UDT 'ImColor' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(1781): note: see declaration of 'ImColor'
+third-party/cimgui/cimgui.cpp(1820): warning C4190: 'ImDrawList_GetClipRectMin' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(1824): warning C4190: 'ImDrawList_GetClipRectMax' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+third-party/cimgui/cimgui.cpp(2240): warning C4190: 'ImFont_CalcTextSizeA' has C-linkage specified, but returns UDT 'ImVec2' which is incompatible with C
+C:\Users\anumr\.cargo\registry\src\github.com-1ecc6299db9ec823\imgui-sys-0.3.0\third-party\cimgui\./imgui/imgui.h(195): note: see declaration of 'ImVec2'
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-FoE:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui.o" "-c" "third-party/cimgui/imgui/imgui.cpp"
+imgui.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-FoE:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui_demo.o" "-c" "third-party/cimgui/imgui/imgui_demo.cpp"
+imgui_demo.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-FoE:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui_draw.o" "-c" "third-party/cimgui/imgui/imgui_draw.cpp"
+imgui_draw.cpp
+exit code: 0
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\cl.exe" "-nologo" "-MD" "-Z7" "-Brepro" "-W4" "-DCIMGUI_NO_EXPORT" "-DIMGUI_DISABLE_WIN32_FUNCTIONS" "-DIMGUI_DISABLE_OSX_FUNCTIONS" "-FoE:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui_widgets.o" "-c" "third-party/cimgui/imgui/imgui_widgets.cpp"
+imgui_widgets.cpp
+exit code: 0
+AR_x86_64-pc-windows-msvc = None
+AR_x86_64_pc_windows_msvc = None
+HOST_AR = None
+AR = None
+running: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.25.28610\\bin\\HostX64\\x64\\lib.exe" "-out:E:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\libcimgui.a" "-nologo" "E:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/cimgui.o" "E:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui.o" "E:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui_demo.o" "E:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui_draw.o" "E:\\devel\\scape\\target\\debug\\build\\imgui-sys-3c7389a7c992fde7\\out\\third-party/cimgui/imgui/imgui_widgets.o"
+exit code: 0
+cargo:rustc-link-lib=static=cimgui
+cargo:rustc-link-search=native=E:\devel\scape\target\debug\build\imgui-sys-3c7389a7c992fde7\out
+CXXSTDLIB_x86_64-pc-windows-msvc = None
+CXXSTDLIB_x86_64_pc_windows_msvc = None
+HOST_CXXSTDLIB = None
+CXXSTDLIB = None
